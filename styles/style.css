@@ -143,9 +143,9 @@ nav ul li a:hover {
 
 #personal-info {
   text-align: center;
-  width: 70rem;
+  width: auto;
   margin: 0 auto;
-  height: 45rem;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -160,9 +160,8 @@ nav ul li a:hover {
   width: 90%;
   margin: 0 auto 2rem auto;
   border-radius: 7px;
-  margin-top: -10rem;
+  margin-top: -20rem;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
   border: 1px solid lightgrey;
@@ -300,16 +299,22 @@ footer {
 
 
 @media(max-width: 500px){
-   /* html{
-    font-size: 40%;
-   } */
+   
+  #logo h3{
+    font-size: 4rem;
+  }
 
    #personal-info{
     width: 50rem;
    }
 
+   #logo{
+    width: 45rem;
+   }
+
    #about{
     margin-top: -5rem;
+    flex-direction: column;
    }
 
    #project{
