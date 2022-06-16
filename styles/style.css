@@ -188,7 +188,7 @@ img.tech-icons {
 footer {
   width: 100vw;
   height: 35rem;
-  background-image: url(/images/developer.svg);
+  background-image: url('../images/developer.svg');
   background-repeat: no-repeat;
   background-position: center top;
   background-color: var(--oxford-blue);
