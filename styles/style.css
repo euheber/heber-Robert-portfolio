@@ -1,0 +1,196 @@
+body {
+  background-color: var(--platinum);
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+* {
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --black: #000000ff;
+  --oxford-blue: #14213dff;
+  --orange-web: #fca311ff;
+  --platinum: #e5e5e5ff;
+  --white: #ffffffff;
+}
+#container {
+  flex: 1;
+}
+
+h1 {
+  font-size: 2.7rem;
+}
+
+p,
+a {
+  font-size: 1.6rem;
+}
+
+/*header*/
+
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  background-color: var(--platinum);
+}
+
+#logo {
+  width: 57rem;
+  margin: 0 auto;
+}
+
+#logo h3 {
+  color: var(--oxford-blue);
+  font-size: 5rem;
+  overflow: hidden;
+  border-right: 0.15em solid var(--orange-web);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--orange-web);
+  }
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav ul li a {
+  font-size: 1.6rem;
+  color: var(--oxford-blue);
+  cursor: pointer;
+  transition: 0.5s ease;
+  animation-name: links;
+  animation-duration: 17s;
+}
+
+nav ul li a:hover {
+  color: var(--orange-web);
+}
+
+@keyframes links {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*header*/
+/*about*/
+#about-me {
+  background-color: var(--orange-web);
+  height: 100vh;
+}
+
+#personal-info {
+  text-align: center;
+  width: 70rem;
+  margin: 0 auto;
+  height: 45rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about {
+  background-color: var(--platinum);
+  width: 90%;
+  margin: 0 auto 2rem auto;
+  border-radius: 7px;
+  margin-top: -15rem;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.box {
+  text-align: center;
+  padding-top: 2.5rem;
+  flex: 1;
+  border: 1px solid lightgrey;
+  border-radius: 7px;
+}
+
+.box h1,
+.box p,
+.box a {
+  color: var(--oxford-blue);
+  margin-bottom: 1.6rem;
+}
+
+.box a {
+  transition: 0.5s ease;
+}
+
+.box a:hover {
+  color: var(--orange-web);
+}
+
+.box img {
+  margin-bottom: 1.6rem;
+  width: 7rem;
+}
+
+#techs {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 1rem;
+  width: 30rem;
+}
+
+img.tech-icons {
+  width: 6rem;
+}
+
+/*about*/
+
+/*project*/
+footer {
+  width: 100vw;
+  height: 35rem;
+  background-image: url(/images/developer.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: var(--oxford-blue);
+}
