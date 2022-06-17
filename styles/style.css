@@ -46,7 +46,7 @@ a {
   width: 5rem;
   background-color: var(--black);
   height: .6rem;
-  margin: 0 auto;
+  margin: 0 auto 1.6rem auto;
   border-radius: 5px;
 }
 
@@ -302,14 +302,18 @@ footer {
   html{
     font-size: 55%;
   }
+
+  #about-me{
+    height: 85vh;
+  }
   
   #logo{
-    width: 23rem;
+    width: 34rem;
    }
 
 
   #logo h3{
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
    #personal-info{
