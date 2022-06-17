@@ -321,11 +321,24 @@ footer {
    }
 
    #about{
-    margin-top: -25rem;
+    margin-top: -8rem;
     flex-direction: column;
    }
 
    #project{
     flex-direction: column;
    }
+}
+
+@media (max-width: 320px){ 
+  #personal-info{
+    width: 35rem;
+   }
+   
+   #about-me {
+    height: 65rem;
+   }
+   #about{
+    margin-top: -5rem;
+}
 }
