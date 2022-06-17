@@ -238,8 +238,10 @@ img.tech-icons {
   border-radius: 7px;
   background-color: var(--platinum);
   padding: 1.6rem;
+  transition: .2s ease;
   border-bottom: 5px solid var(--orange-web);
 }
+
 
 .project-box a{
   color: var(--oxford-blue);
@@ -296,8 +298,8 @@ footer {
   background-color: var(--oxford-blue);
 }
 
-
-@media(max-width: 425px){
+/*media querie*/
+@media(max-width: 540px){
   
   html{
     font-size: 55%;
