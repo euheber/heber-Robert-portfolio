@@ -299,17 +299,19 @@ footer {
 
 
 @media(max-width: 500px){
-   
+  
+  
+  #logo{
+    width: 23rem;
+   }
+
+
   #logo h3{
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
    #personal-info{
     width: 50rem;
-   }
-
-   #logo{
-    width: 45rem;
    }
 
    #about{
