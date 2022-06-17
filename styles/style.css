@@ -143,7 +143,7 @@ nav ul li a:hover {
 
 #personal-info {
   text-align: center;
-  width: auto;
+  width: 60rem;
   margin: 0 auto;
   height: auto;
   display: flex;
@@ -158,9 +158,8 @@ nav ul li a:hover {
 #about {
   background-color: var(--platinum);
   width: 90%;
-  margin: 0 auto 2rem auto;
+  margin: -15rem auto 2rem auto;
   border-radius: 7px;
-  margin-top: -20rem;
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -300,6 +299,9 @@ footer {
 
 @media(max-width: 500px){
   
+  html{
+    font-size: 55%;
+  }
   
   #logo{
     width: 23rem;
