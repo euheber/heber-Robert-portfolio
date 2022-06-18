@@ -140,7 +140,9 @@ nav ul li a:hover {
 
 #personal-info {
   text-align: center;
-  width: 60rem;
+  width: 70%;
+  max-width: 60rem;
+  min-width: 30rem;
   margin: 0 auto;
   height: auto;
   display: flex;
@@ -159,6 +161,7 @@ nav ul li a:hover {
   margin: -10vh auto 2rem auto;
   border-radius: 7px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
   border: 1px solid lightgrey;
@@ -168,6 +171,7 @@ nav ul li a:hover {
   text-align: center;
   padding: 2rem;
   flex: 1;
+  max-width: 40rem;
   border: 1px solid lightgrey;
   border-radius: 7px;
   background-color: var(--platinum);
@@ -321,9 +325,9 @@ footer {
 
 @media(max-width: 540px){
   
-  html{
+   html{
     font-size: 55%;
-  }
+  } 
  
   #logo{
     width: 34rem;
@@ -333,11 +337,6 @@ footer {
   #logo h3{
     font-size: 3rem;
   }
-
-   #personal-info{
-    width: 40rem;
-   }
-
    #about{
     flex-direction: column;
    }
@@ -347,9 +346,7 @@ footer {
 }
 
 @media (max-width: 350px){ 
-  #personal-info{
-    width: 35rem;
-   }
+  
 
    .project-img{
     width: 30rem;
