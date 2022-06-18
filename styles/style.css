@@ -150,6 +150,7 @@ nav ul li a:hover {
 
 #personal-info h1{ 
   color: var(--white);
+  padding-top: 2rem;
 }
 
 #about {
@@ -320,9 +321,9 @@ footer {
 
 @media(max-width: 540px){
   
-  /* html{
+  html{
     font-size: 55%;
-  } */
+  }
  
   #logo{
     width: 34rem;
