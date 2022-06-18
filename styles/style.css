@@ -166,7 +166,7 @@ nav ul li a:hover {
 
 .box {
   text-align: center;
-  padding-top: 2.5rem;
+  padding: 2rem;
   flex: 1;
   border: 1px solid lightgrey;
   border-radius: 7px;
