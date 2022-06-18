@@ -169,6 +169,7 @@ nav ul li a:hover {
   flex: 1;
   border: 1px solid lightgrey;
   border-radius: 7px;
+  background-color: var(--platinum);
 }
 
 .box h1,
@@ -213,13 +214,15 @@ img.tech-icons {
 #projects{ 
   width: 100%;
   background-color: var(--oxford-blue);
-  margin: 0 auto;
-
 }
 
 #projects h1, #projects p{
   color: var(--platinum);
   text-align: center;
+}
+
+#projects h1{
+  padding-top: 2rem;
 }
 
 #project{ 
@@ -228,10 +231,12 @@ img.tech-icons {
   gap: 1rem;
   padding: 1.6rem;
   border-radius: 7px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .project-box{ 
-  flex: 1;
+  width: 40rem;
   border-radius: 7px;
   background-color: var(--platinum);
   padding: 1.6rem;
@@ -242,7 +247,7 @@ img.tech-icons {
 
 .project-box a{
   color: var(--oxford-blue);
-  text-align: left;
+  text-align: center;
   display: block;
   margin-top: 1rem;
   transition: .5s ease;
@@ -253,6 +258,7 @@ img.tech-icons {
 }
 
 .project-img{
+  width: 35rem;
   height: 20rem;
   margin: 0 auto 1.6rem auto;
 }
@@ -266,6 +272,7 @@ img.tech-icons {
 .languages{ 
   display: flex;
   gap: 1rem;
+  justify-content: center;
 }
 .css, .html, .javascript{
   padding: .5rem;
@@ -313,9 +320,9 @@ footer {
 
 @media(max-width: 540px){
   
-  html{
+  /* html{
     font-size: 55%;
-  }
+  } */
  
   #logo{
     width: 34rem;
@@ -333,11 +340,6 @@ footer {
    #about{
     flex-direction: column;
    }
-
-   #project{
-    flex-direction: column;
-   }
-
    #techs{
     flex-direction:row;
   }
