@@ -44,7 +44,7 @@ a {
 
 .bar{
   width: 5rem;
-  background-color: var(--black);
+  background-color: var(--oxford-blue);
   height: .6rem;
   margin: 0 auto 1.6rem auto;
   border-radius: 5px;
