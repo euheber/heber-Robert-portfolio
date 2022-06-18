@@ -135,11 +135,8 @@ nav ul li a:hover {
 /*about*/
 #about-me {
   background-color: var(--orange-web);
-  text-align: center;
   padding-bottom: 20vh;
 }
-
-
 
 #personal-info {
   text-align: center;
@@ -299,6 +296,21 @@ footer {
 }
 
 /*media querie*/
+
+
+
+@media(max-width: 768px){
+  img.tech-icons {
+    width: 4rem;
+  }
+
+  #techs{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
 @media(max-width: 540px){
   
   html{
@@ -325,6 +337,10 @@ footer {
    #project{
     flex-direction: column;
    }
+
+   #techs{
+    flex-direction:row;
+  }
 }
 
 @media (max-width: 320px){ 
